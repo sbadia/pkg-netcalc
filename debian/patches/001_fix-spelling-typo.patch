@@ -1,0 +1,16 @@
+Description: Fix spelling typo
+Author: Sebastien Badia <seb@sebian.fr>
+Forwarded: no
+Last-Update: 2015-08-26
+
+--- netcalc-2.0.orig/netcalc.c
++++ netcalc-2.0/netcalc.c
+@@ -527,7 +527,7 @@ int main(int argc, char *argv[])
+ 
+ 	if (split_errv4 || split_errv6) {
+  nothing:
+-		warnx("No (valid) commands recieved, nothing to do.");
++		warnx("No (valid) commands received, nothing to do.");
+ 		free_boxargs(abox_start);
+ 		return 1;
+ 	}
