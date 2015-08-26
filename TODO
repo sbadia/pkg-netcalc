@@ -1,0 +1,8 @@
+* IPv6 name resolution is untested on Solaris due to lack of a machine to
+  try this on. I'd love to hear from anyone that trys this.
+
+* Same as above for MacOSX.
+
+* Make validate_v4addr, validate_v6addr and validate netmask use the same
+  returncodes.
+
