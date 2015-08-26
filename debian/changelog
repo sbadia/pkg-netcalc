@@ -1,0 +1,5 @@
+netcalc (2.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Sebastien Badia <seb@sebian.fr>  Wed, 26 Aug 2015 14:25:59 +0200

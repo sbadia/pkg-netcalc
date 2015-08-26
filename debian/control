@@ -1,0 +1,17 @@
+Source: netcalc
+Section: net
+Priority: optional
+Maintainer: Sebastien Badia <seb@sebian.fr>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: https://github.com/troglobit/netcalc
+#Vcs-Git: git://anonscm.debian.org/collab-maint/netcalc.git
+#Vcs-Browser: https://anonscm.debian.org/gitweb/?p=collab-maint/netcalc.git;a=summary
+
+Package: netcalc
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Simplified clone of sipcalc with ipcalc looks
+ netcalc is a slimmed down clone of sipcalc, using the output format of ipcalc.
+ It is written in C and has very few dependencies. Both IPv4 and IPv6 is
+ supported.
