@@ -22,6 +22,7 @@ include /usr/share/dpkg/default.mk
 	dh $@ 
 
 
+override_dh_auto_test:
 
 override_dh_auto_install:
 	dh_auto_install
